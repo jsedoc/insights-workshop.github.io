@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# layout: home
+title: Workshop on Insights from Negative Results in NLP
+---
 
-You can use the [editor on GitHub](https://github.com/jsedoc/insights-workshop.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> <span style="color:#267CB9">**News**:</span> After the successful first edition of Insights from Negative Results in 2020, we are looking forward to the second workshop that will be co-located with EMNLP 2021. Stay tuned for CFP!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## <span style="color:#267CB9">Why negative results?</span>
 
-### Markdown
+Publication of negative results is difficult in most fields, but in NLP the problem is exacerbated by the near-universal focus on improvements in benchmarks. This situation implicitly discourages hypothesis-driven research, and it turns creation and fine-tuning of NLP models into art rather than science. Furthermore, it increases the time, effort, and carbon emissions spent on developing and tuning models, as the researchers have no opportunity to learn what has already been tried and failed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This workshop invites both practical and theoretical unexpected or negative results that have important implications for future research, highlight methodological issues with existing approaches, and/or point out pervasive misunderstandings or bad practices. In particular, the most successful NLP models currently rely on different kinds of pretrained meaning representations (from word embeddings to Transformer-based models like BERT). To complement all the success stories, it would be insightful to see where and possibly why they fail. Any NLP tasks are welcome: sequence labeling, question answering, inference, dialogue, machine translation - you name it.
 
-```markdown
-Syntax highlighted code block
+A successful negative results paper would contribute one of the following:
 
-# Header 1
-## Header 2
-### Header 3
+* ablation studies of components in previously proposed models, showing that their contributions are different from the initially reported;
+* datasets or probing tasks showing that previous approaches do not generalize to other domains or language phenomena;
+* extensions or annotations of existing datasets which show that prior successes are due to spurious statistical factors or annotation artifacts;
+* the respective contributions of pre-training vs fine-tuning to the end result;
+* cross-lingual studies showing that a technique X is only successful for a certain language or language family;
+* experiments on (in)stability of the previously published results due to hardware, random initializations, etc.;
+* broadly applicable recommendations for training/fine-tuning, especially if the X that didn't work is something that many practitioners would think reasonable to try, and if the demonstration of X's failure is accompanied by some explanation/hypothesis.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jsedoc/insights-workshop.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The Workshop for Insights from Negative Results  invites short papers as well as non-archival abstract submissions for papers published elsewhere (e.g. in one of the main conferences or in non-NLP venues). Our goal is to provide not only a publication venue, but an opportunity to discuss the most urgent methodological issues, and to think about where the field is going.
